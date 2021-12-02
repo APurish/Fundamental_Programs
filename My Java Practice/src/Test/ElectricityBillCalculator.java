@@ -25,17 +25,17 @@ public class ElectricityBillCalculator {
 			System.out.print(b);
 			
 			}
-//		else if (ut >150 && ut <=250) {
-//			df2=ut-150;
-//			c = a + b + Math.floor((1.20*df2)+(1.20*df2)*0.20);
-//			System.out.print(c);
-//			
-//		}
-//		else {
-//			df3 = ut-250;
-//			d = a + b + c + Math.floor((1.50*df3)+(1.50*df3)*0.20);
-//			System.out.print(d);
-//		}		
+		else if (ut >150 && ut <=250) {
+			df2=ut-150;
+			c = a + b + Math.floor((1.20*df2)+(1.20*df2)*0.20);
+			System.out.print(c);
+			
+		}
+		else {
+			df3 = ut-250;
+			d = a + b + c + Math.floor((1.50*df3)+(1.50*df3)*0.20);
+			System.out.print(d);
+		}		
 			
 		}
 }
